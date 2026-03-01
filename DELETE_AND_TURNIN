@@ -8,7 +8,7 @@ set -euo pipefail
 # - If successful, deletes everything in the current directory except:
 #     - itself
 #     - .env
-#
+# Ensure permissions are correct: chmod u+x ./DELETE_AND_TURNIN
 # Usage:
 #   ./DELETE_AND_TURNIN [--url https://utcs429.com/revoke-access]
 

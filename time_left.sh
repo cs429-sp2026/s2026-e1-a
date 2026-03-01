@@ -6,7 +6,7 @@ set -euo pipefail
 # Reads EID, TOKEN, and GITHUB (or USER) from .env, calls the request-access
 # endpoint, and prints remaining time:
 #   (requested_at + 30 minutes) - now
-#
+# Ensure permissions are correct: chmod u+x ./time_left.sh
 # Usage:
 #   ./time_left.sh
 #   ./time_left.sh --url https://utcs429.com/request-access
