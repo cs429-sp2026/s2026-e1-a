@@ -1,0 +1,4 @@
+outputs/*
+bin/treap.o
+bin/treap
+.idea/

@@ -1,0 +1,24 @@
+INSERT comparch 429
+INSERT app 1
+INSERT apple 4
+INSERT h 6
+SIZE 4
+PRINT
+FIND apple 4
+FIND app 1
+FIND apply NULL
+FIND comparch 429
+INSERT apple 5
+SIZE 4
+FIND applee NULL
+REMOVE applee
+FIND apple 5
+REMOVE apple
+FIND apple NULL
+REMOVE apple
+FIND app 1
+REMOVE app
+FIND comparch 429
+REMOVE comparch
+REMOVE h
+SIZE 0

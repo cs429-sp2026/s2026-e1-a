@@ -1,0 +1,58 @@
+INSERT mercury 1
+INSERT venus 2
+INSERT earth 3
+INSERT mars 4
+INSERT jupiter 5
+INSERT saturn 6
+INSERT uranus 7
+INSERT neptune 8
+INSERT pluto 9
+
+SIZE 9
+PRINT
+
+INSERT earth 300
+INSERT mars 400
+FIND earth 300
+FIND mars 400
+SIZE 9
+
+FIND jupiter 5
+FIND saturn 6
+FIND vulcan NULL
+FIND xena NULL
+
+REMOVE pluto
+FIND pluto NULL
+SIZE 8
+
+REMOVE mercury
+REMOVE jupiter
+SIZE 6
+PRINT
+
+INSERT ceres 10
+INSERT eris 11
+INSERT haumea 12
+INSERT makemake 13
+SIZE 10
+PRINT
+
+FIND venus 2
+FIND uranus 7
+FIND earth 300
+FIND ceres 10
+
+REMOVE venus
+REMOVE earth
+REMOVE mars
+REMOVE saturn
+REMOVE uranus
+REMOVE neptune
+REMOVE ceres
+REMOVE eris
+REMOVE haumea
+REMOVE makemake
+
+SIZE 0
+PRINT

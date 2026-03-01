@@ -1,0 +1,4 @@
+INSERT comparch 100
+INSERT comparch 200
+SIZE 1
+FIND comparch 200

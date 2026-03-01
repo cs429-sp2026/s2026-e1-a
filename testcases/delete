@@ -1,0 +1,16 @@
+INSERT m 10
+INSERT f 10
+INSERT s 10
+INSERT c 10
+INSERT i 10
+INSERT p 10
+INSERT x 10
+PRINT
+# Remove the root
+REMOVE x
+# Remove a leaf
+REMOVE c
+# Remove a node with children
+REMOVE f
+SIZE 4
+PRINT
