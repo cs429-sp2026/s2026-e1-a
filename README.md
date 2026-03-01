@@ -16,10 +16,9 @@ You are allowed to utilize the terminal of your choice for these actions, but th
 - Some testcases in the `testcases` folder
 
 # What this code does:
-The given code takes in an arbitrary number of lines of the format ...
+The given code takes in an arbitrary number of lines of the format \<ACTION\> \<arg0\> ... \<arg n\>
 This logic is done in `treap.c`; however, this implementation may not be correct and it is up to you to fix it. You may assume
 that the given object files are functional.
-Some examples of ... are at the bottom
 
 
 # Instructions:
@@ -31,7 +30,4 @@ Some examples of ... are at the bottom
 6. Use ./time_left.sh to get your remaining time
 7. Write the outputs of the `history` command to a file in this repo called `shell_logs.txt`
 8. Commit and push your changes. Do not forget to add `shell_logs.txt` to git.
-9. run ./DELETE_AND_TURNIN
-10. Please do not leave before your proctors tell you to do so.
-
-examples:
+9. run ./DELETE_AND_TURNIN, note this does not commit nor push your changes to any remote.
